@@ -18,13 +18,8 @@ const Login = () => {
   }
    
   const handleLogin =() =>{
-    const data ={
-      Name:name,
-      PhoneNo:phoneno
-    }
-
-    const url ="https://localhost:44370/api/Test/Login";
-    axios.post(url,data)
+      const url = "https://localhost:44370/api/Test/Login?Name="+name+"&PhoneNo="+phoneno;
+    axios.get(url)
     .then((result) =>{ 
       alert(result.data);
     }).catch((error)=>{
@@ -67,7 +62,7 @@ const Login = () => {
           </label>
         </div> */}
         <div className="d-grid">
-           <button className="btm btn-primary" onClick={() => handleLogin() }>Sign Up</button>   
+           <button className="btm btn-primary" onClick={() => handleLogin() }>Sign In</button>   
         </div>
         <p className="text-end mt-2">
           Forgot <a href=" ">Password?</a> <Link to="/signup" className="ms-2">Sign up</Link>

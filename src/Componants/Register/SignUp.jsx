@@ -89,7 +89,7 @@ const SignUp = () => {
            <button className="btm btn-primary" onClick={() => handleApi() }>Sign Up</button>   
         </div>
         <p className="text-end mt-2">
-          Already Registered <Link to="/" className="ms-2">Sign In</Link>
+          Already Registered <Link to="/Login" className="ms-2">Sign In</Link>
         </p>
       </form>
       </div>

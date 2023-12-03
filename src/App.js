@@ -1,17 +1,21 @@
-import './App.css';
+
 import "bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter as Router,Routes, Route } from "react-router-dom"
-import Login from './Componants/Login/Login';
-import SignUp from './Componants/Register/SignUp';
- 
+import About from './routes/About';
+import Contact from './routes/Contact';
+import Home from './routes/Home';
+import Project from './routes/Project';
+ import "./App.css"
 
 function App() {
   return (
     <>
     <Router>
         <Routes>
-         <Route path='/' exact Component={Login} />
-         <Route path='/signup' exact Component={SignUp} />
+         <Route path='/' exact Component={Home} />
+         <Route path='/project' exact Component={Project } />
+         <Route path='/about' exact Component={About } />
+         <Route path='/contact' exact Component={ Contact } />
          </Routes>
       </Router>
     </>
