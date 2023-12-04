@@ -10,8 +10,8 @@ const Hero = () => {
                 <img src={IntroImg} alt="IntroImg" className='into-img' />
             </div>
             <div className="content">
-                <p>WE MAKE</p>
-                <h1>DIGITAL PRODUCTS</h1>
+                <p>Accelerate your business through</p>
+                <h1>Our Innovative IT Solutions</h1>
                 <div>
                     <Link to="/project" className='btn'>Project</Link>
                     <Link to="/contact" className='btn-light'>Contact</Link>
