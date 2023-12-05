@@ -4,8 +4,8 @@ import { BrowserRouter as Router,Routes, Route } from "react-router-dom"
 import About from './routes/About';
 import Contact from './routes/Contact';
 import Home from './routes/Home';
-import Project from './routes/Project';
  import "./App.css"
+import Services from "./routes/Services";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
     <Router>
         <Routes>
          <Route path='/' exact Component={Home} />
-         <Route path='/project' exact Component={Project } />
+         <Route path='/services' exact Component={ Services } />
          <Route path='/about' exact Component={About } />
          <Route path='/contact' exact Component={ Contact } />
          </Routes>

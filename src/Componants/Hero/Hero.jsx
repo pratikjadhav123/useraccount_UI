@@ -13,7 +13,7 @@ const Hero = () => {
                 <p>Accelerate your business through</p>
                 <h1>Our Innovative IT Solutions</h1>
                 <div>
-                    <Link to="/project" className='btn'>Project</Link>
+                    <Link to="/services" className='btn'>Services</Link>
                     <Link to="/contact" className='btn-light'>Contact</Link>
                 </div>
             </div>

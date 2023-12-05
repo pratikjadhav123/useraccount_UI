@@ -42,7 +42,7 @@ const SignUp = () => {
 
   return (
     <>
-    <div className="signup template d-flex justify-content-center align-items-center  vh-100 bg-primary ">
+    <div className="signup template d-flex justify-content-center align-items-center  vh-100 bg-gray ">
       <div className="form_container p-5 rounded bg-white">
       <form >
         <h3 className="text-center">Sign Up</h3>

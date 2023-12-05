@@ -42,6 +42,11 @@ const Footer = () => {
             </div>
         </div>
      </div>
+     <div className='legal'>
+        <p>
+          Developed by PRATIK JADHAV 9075148717 ©2023  <i className='fa fa-heart'></i> PRATIK JADHAV 
+        </p>
+      </div>
      </>
   )
 }
