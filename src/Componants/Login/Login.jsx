@@ -6,9 +6,7 @@ import axios from "axios";
 const Login = () => {
   const [name, setName]= useState("")
   const [phoneno, setPhoneNo]= useState("")
- 
-   
-
+  
   const handleName = (e) =>{
     setName(e.target.value)
   }

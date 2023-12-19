@@ -1,17 +1,20 @@
-import React from 'react'
-import Navbar from '../Componants/Navbar/Navbar'
-import Footer from '../Componants/Footer/Footer'
-import HeroServices from '../Componants/HeroServices/HeroServices'
-import SignUp from './../Componants/Register/SignUp';
+import React from 'react';
+import Navbar from '../Componants/Navbar/Navbar';
+import Footer from '../Componants/Footer/Footer';
+import HeroServices from '../Componants/HeroServices/HeroServices';
+import Form from '../Componants/Form/Form';
 
 const Contact = () => {
   return (
-    <div>
+     
+     
+     <>
      <Navbar/>
      <HeroServices heading=" CONTACT." text=""/>
-     <SignUp/>
-     <Footer/>
-   </div>
+     <Form/>
+    <Footer/>
+    </>
+     
   )
 }
 
