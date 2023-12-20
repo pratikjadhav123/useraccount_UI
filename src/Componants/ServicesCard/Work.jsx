@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <>
     <div className="work-container">
-        <h1 className='services-heading'>SERVICES</h1>
+        <h1 className='services-heading'>~ SERVICES ~ </h1>
         <div className='services-container'>
             {ServiceCardData.map((val, ind) =>{
                 return(

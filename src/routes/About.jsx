@@ -1,15 +1,16 @@
 import React from 'react'
 import Navbar from '../Componants/Navbar/Navbar'
 import Footer from '../Componants/Footer/Footer'
-import HeroServices from '../Componants/HeroServices/HeroServices'
-import AboutContent from '../Componants/AboutContent/AboutContent'
+import AboutAll from '../Componants/AboutContent/AboutAll'
+import HeroAbout from '../Componants/AboutContent/HeroAbout/HeroAbout'
 
 const About = () => {
   return (
     <div>
     <Navbar/>
-    <HeroServices heading="ABOUT US." text=""/>
-    <AboutContent/>
+    {/* <HeroAbout heading="ABOUT US." text=""/> */}
+    <HeroAbout heading="ABOUT US." text=""/>
+    <AboutAll/>
     <Footer/>
    </div>
   )

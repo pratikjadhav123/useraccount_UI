@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import "./HeroServices.css"
+import "./HeroAbout.css"
 
 
-class HeroServices extends Component{
+class HeroAbout extends Component{
     render() {
         return(
             <>
@@ -16,4 +16,4 @@ class HeroServices extends Component{
         )
     }
 }
-export default HeroServices;
+export default HeroAbout;

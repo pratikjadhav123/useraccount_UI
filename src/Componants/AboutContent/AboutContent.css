@@ -16,6 +16,10 @@
 
 .about .left p{
     margin: 1.2rem 0;
+    color:black
+}
+.about .left h1{
+    color: black;
 }
 
 .about .right{
@@ -31,17 +35,17 @@
 }
 .right .img{
     max-width: 90%;
-    border: 1px solid #333;
+    border: 1px solid #efe8e8;
 }
 .right .top{
     grid-column: 1 / span 8;
     grid-row: 1;
-    padding-top: 20%;
+    padding-top: 9%;
     z-index: 6;
 }
-.right .bottom{
+/* .right .bottom{
     grid-column: 4 / -1;
     grid-row: 1;
     z-index: 5;
-}
+} */
 

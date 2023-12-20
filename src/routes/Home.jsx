@@ -3,14 +3,14 @@ import Navbar from '../Componants/Navbar/Navbar'
 import Hero from '../Componants/Hero/Hero'
 import Footer from '../Componants/Footer/Footer'
 import Work from '../Componants/ServicesCard/Work'
-import AboutContent from '../Componants/AboutContent/AboutContent'
+import AboutAll from '../Componants/AboutContent/AboutAll'
 
 const Home = () => {
   return (
     <div>
       <Navbar/>
       <Hero/>
-      <AboutContent/>
+      <AboutAll/>
       <Work/>
       <Footer/>
     </div>

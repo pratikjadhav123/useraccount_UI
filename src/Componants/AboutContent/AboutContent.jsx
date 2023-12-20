@@ -1,8 +1,8 @@
 import React from 'react'
 import "./AboutContent.css"
 import { Link } from 'react-router-dom'
-import aboutimg1 from "../../assets/Services.bg.jpg"
-import aboutimg2 from "../../assets/intro-img.jpg"
+import aboutimg1 from "../../assets/About_Us1.jpg"
+// import aboutimg2 from "../../assets/About_Us1.jpg"
 
 const AboutContent = () => {
   return (
@@ -29,9 +29,9 @@ const AboutContent = () => {
                 <div className="img-stack top">
                    <img src={aboutimg1} alt="true" className='img' />
                 </div>
-                <div className="img-stack bottom">
+                {/* <div className="img-stack bottom">
                    <img src={aboutimg2} alt="true" className='img' />
-                </div>
+                </div> */}
             </div>
         </div>
         

@@ -12,8 +12,11 @@
     padding-bottom: 5rem;
 }
 .services-card{
-    background-color: #1a1919;
+    background-color: #4e5151;
     padding: 1.2rem 1rem;
+}
+.services-heading{
+    color: black;
 }
 .services-card img{
     width: 100%;

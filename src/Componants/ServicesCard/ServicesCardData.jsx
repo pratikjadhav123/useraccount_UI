@@ -1,9 +1,9 @@
-import card1 from "../../assets/Services.bg.jpg"
-import card2 from "../../assets/GettyImages-1027129326-1.png"
-import card3 from "../../assets/intro-img.jpg"
-import card4 from "../../assets/intro-img.jpg"
-import card5 from "../../assets/intro-img.jpg"
-import card6  from "../../assets/intro-img.jpg"
+import card1 from "../../assets/SERVICES/SERVICES_1.jpg"
+import card2 from "../../assets/SERVICES/SERVICES_2.jpg"
+import card3 from "../../assets/SERVICES/SERVICES_3.jpg"
+import card4 from "../../assets/SERVICES/SERVICES_4.jpg"
+import card5 from "../../assets/SERVICES/SERVICES_5.jpg"
+import card6  from "../../assets/SERVICES/SERVICES_6.jpg"
 
 const ServiceCardData = [
     {

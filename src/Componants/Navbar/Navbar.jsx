@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import "./NavbarStyles.css";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
+// import Head from './Head';
 
 
 
@@ -22,6 +23,7 @@ const Navbar = () => {
   window.addEventListener("scroll", changeColor);
 
     return (
+        <>
         <div className={color ? "header header-bg" : "header"}>
             <Link to="/">
                 <h1>ITvidpra</h1>
@@ -45,6 +47,7 @@ const Navbar = () => {
                 style={{ color: "#fff" }} />)}
             </div>
         </div>
+        </>
     )
 }
 

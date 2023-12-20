@@ -7,7 +7,7 @@
 
 .hero-img ::before {
     content  : "";
-    background: url("../../assets/HeroServices_bg.jpg");
+    background: url("../../../assets/GettyImages-1027129326-1.png");
     background-size: cover;
     background-position: center top;
     height: 100%;
