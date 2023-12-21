@@ -12,6 +12,11 @@
     background-color: rgba(0, 0, 0, 0.85);
     transition: 0.6s;
 }
+.logo {
+    width: 170px; /* Set the width as needed */
+    height: auto; /* Allow the height to adjust proportionally */
+    /* Add other styles specific to your logo */
+  }
 .nav-menu{
     display: flex;
 

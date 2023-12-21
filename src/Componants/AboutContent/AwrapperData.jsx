@@ -18,6 +18,6 @@ export const awrapper = [
     {
       cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
       data: "100+",
-      title: "EXPERIENCED WORKFORCE MEMBERS",
+      title: "EXPERIENCED WORKFORCE",
     },
   ]
