@@ -1,4 +1,4 @@
-.background {
+/* .background {
   background-image: url('../../assets/contact_bg.jpg');
   background-size: cover;
   background-position: center;
@@ -48,13 +48,83 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.btn{
-  
+  */
+/* formcontact and map css */
+
+.contacts{
+  background-image: url('../../assets/contact_bg.jpg');
+   background-size: cover;
+  background-position: center;
 }
 
-/* Media query for responsiveness */
+.contacts iframe {
+  width: 150vh;
+  height: 100vh;
+  border: none;
+}
+.contacts .right {
+  padding: 50px;
+  background-image: url('../../assets/contact_bg.jpg');
+}
+.contacts h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.contacts h4 {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(27, 26, 26);
+}
+.contacts p {
+  color: grey;
+}
+.contacts .items {
+  margin: 30px 0;
+}
+.contacts .box p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.contacts textarea,
+.contacts input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  border: 1px solid grey;
+}
+form .flexSB input:nth-child(1) {
+  margin-right: 10px;
+}
+.contacts h3 {
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contacts span {
+  color:  #f7921c;
+  font-weight: 600;
+  font-size: 15px;
+  word-spacing: 5px;
+}
 @media screen and (max-width: 768px) {
+  .contacts .container {
+    flex-direction: column;
+  }
+  .contacts iframe {
+    height: 50vh;
+  }
+  .contacts .row {
+    width: 100%;
+  }
+}
+
+/* ****************************************** */
+
+
+/* Media query for responsiveness */
+/* @media screen and (max-width: 768px) {
   .form {
     max-width: 300px;
   }
-}
+} */
