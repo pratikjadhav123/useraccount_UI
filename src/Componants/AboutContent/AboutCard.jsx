@@ -2,7 +2,7 @@ import React from "react"
 // import Heading from "../common/heading/Header1"
 import "./about.css";
 import { homeAbout } from "./AboutData"
-import Awrapper from "./Awrapper";
+// import Awrapper from "./Awrapper";
 import 'bootstrap/dist/css/bootstrap.css';
 import aboutimg from "../../assets/About_Us.jpg"
 
@@ -34,7 +34,7 @@ const AboutCard = () => {
           </div>
         </div>
       </section>
-      <Awrapper/>
+      {/* <Awrapper/> */}
     </>
   )
 }

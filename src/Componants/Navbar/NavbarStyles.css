@@ -33,7 +33,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 640px) {
     .nav-menu{
         flex-direction: column;
         justify-content: center;
@@ -48,6 +48,11 @@
         transition: 0.3s;
 
     }
+    .logo {
+        width: 170px; /* Set the width as needed */
+        height: auto; /* Allow the height to adjust proportionally */
+        /* Add other styles specific to your logo */
+      }
     .nav-menu.active{
         left: 0;
     }
