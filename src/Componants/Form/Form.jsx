@@ -5,7 +5,7 @@ import "./Form.css";
 const Form = () => {
   const form = useRef();
   const map =
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.7999562276964!2d74.00535843194533!3d18.583055336092617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3fe3196e309%3A0xabd5c95f58e16aca!2sIvy%20Estate%20Nia!5e0!3m2!1sen!2sin!4v1703137650071!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ';
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.7999562276964!2d74.00535843194533!3d18.583055336092617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3fe3196e309%3A0xabd5c95f58e16aca!2sIvy%20Estate%20Nia!5e0!3m2!1sen!2sin!4v1703137650071!5m2!1sen!2sin" ';
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -32,7 +32,16 @@ const Form = () => {
       <section className="contacts padding">
         <div className="container shadow flexSB">
           <div className="left row">
-            <iframe src={map}></iframe>
+            <iframe
+              src={map}
+              title="Location Map"
+              width="600"
+              height="450"
+              style={{ border: "0" }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
           <div className="right row">
             <h1>Contact us</h1>
@@ -73,7 +82,7 @@ const Form = () => {
             </form>
 
             <h3>Follow us here</h3>
-            <span>FACEBOOK  LINKEDIN INSTAGRAM </span>
+            <span>FACEBOOK LINKEDIN INSTAGRAM </span>
           </div>
         </div>
       </section>
